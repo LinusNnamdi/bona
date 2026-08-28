@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BONAVEE REAL ESTATE SERVICES | Premium Property Development & Construction in Awka, Nigeria</title>
+	<link rel="icon" href="images/logo.png" type="image/png">
+    
+    <meta name="description" content="BONAVEE REAL ESTATE SERVICES specializes in property development, construction, estate management, architectural services, interior and exterior design in Awka, Eastern Nigeria and global markets.">
+    <meta name="keywords" content="property development, construction, estate management, property management, architectural services, interior decoration, exterior decoration, construction company in Awka, real estate company in Awka, property development in Nigeria, architectural services Nigeria">
+    <meta name="author" content="BONAVEE REAL ESTATE SERVICES">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="BONAVEE REAL ESTATE SERVICES | Premium Property & Construction">
+    <meta property="og:description" content="Building Spaces. Creating Value. Shaping the Future. Luxury architectural design, structural engineering, and property development in Nigeria.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bonaveerealestateservices.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BONAVEE REAL ESTATE SERVICES">
+    <meta name="twitter:description" content="Premium Property Development, Architecture, and Construction Services in Nigeria.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "RealEstateAgent",
+      "name": "BONAVEE REAL ESTATE SERVICES",
+      "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "telephone": "+2348168242474",
+      "email": "bonaveerealestateservices@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Awka",
+        "addressRegion": "Anambra State",
+        "addressCountry": "Nigeria"
+      },
+      "url": "https://bonaveerealestateservices.com",
+      "priceRange": "₦₦₦",
+      "description": "Premium property development, architectural planning, interior decoration, and construction services.",
+      "openingHours": "Mo-Fr 08:00-18:00"
+    }
+    </script>
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-bar-info">
+                <span>📍 Awka, Nigeria</span>
+                <span>📞 <a href="tel:08168242474">08168242474</a></span>
+                <span>✉️ <a href="mailto:bonaveerealestateservices@gmail.com">bonaveerealestateservices@gmail.com</a></span>
+            </div>
+            <div class="top-bar-controls">
+                <div class="currency-selector">
+                    <label for="currency-select" class="sr-only">Currency</label>
+                    <select id="currency-select" aria-label="Select Currency">
+                        <option value="NGN">₦ NGN</option>
+                        <option value="USD">$ USD</option>
+                    </select>
+                </div>
+                <button id="theme-toggle" class="btn-theme-toggle" aria-label="Toggle Light and Dark Theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <header id="main-header" class="header">
+        <div class="container header-container">
+            <a href="#home" class="logo-area" aria-label="BONAVEE Homepage">
+                <span class="logo-main">BONAVEE</span>
+                <span class="logo-sub">REAL ESTATE SERVICES</span>
+            </a>
+
+            <nav class="desktop-nav" aria-label="Main Navigation">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#shop" class="nav-link">Shop</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li><a href="#careers" class="nav-link">Careers</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#wishlist" class="action-btn" aria-label="View Wishlist">
+                    <span class="action-icon">❤️</span>
+                    <span id="wishlist-count" class="badge">0</span>
+                </a>
+                <button id="cart-drawer-toggle" class="action-btn" aria-label="Open Shopping Cart">
+                    <span class="action-icon">🛒</span>
+                    <span id="cart-count" class="badge">0</span>
+                </button>
+                <a href="#booking" class="btn btn-accent btn-sm header-cta">Book Appointment</a>
+                <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-nav" class="mobile-nav" aria-hidden="true">
+            <ul class="mobile-nav-links">
+                <li><a href="#home" class="mobile-link">Home</a></li>
+                <li><a href="#about" class="mobile-link">About Us</a></li>
+                <li><a href="#services" class="mobile-link">Services</a></li>
+                <li><a href="#shop" class="mobile-link">Shop & Properties</a></li>
+                <li><a href="#portfolio" class="mobile-link">Portfolio & Projects</a></li>
+                <li><a href="#blog" class="mobile-link">Insights & Blog</a></li>
+                <li><a href="#pricing" class="mobile-link">Pricing Packages</a></li>
+                <li><a href="#careers" class="mobile-link">Careers</a></li>
+                <li><a href="#contact" class="mobile-link">Contact Us</a></li>
+                <li><a href="#booking" class="mobile-link highlight">Book Consultation</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="app-viewport">
+
+        <section id="view-home" class="page-view active">
+            <div class="hero-section">
+                <div class="hero-overlay"></div>
+                <div class="container hero-container">
+                    <div class="hero-content">
+                        <span class="hero-badge">Architectural Excellence & Construction</span>
+                        <h1 class="hero-title">Building Spaces. Creating Value. Shaping the Future.</h1>
+                        <p class="hero-description">BONAVEE REAL ESTATE SERVICES delivers master-class property development, civil construction, interior architectural masterpieces, and full-spectrum property management across Nigeria and internationally.</p>
+                        <div class="hero-cta-group">
+                            <a href="#services" class="btn btn-accent btn-lg">Explore Our Services</a>
+                            <a href="#contact" class="btn btn-outline btn-lg">Request a Quote</a>
+                            <a id="hero-whatsapp-btn" href="#" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">WhatsApp Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trust-bar">
+                <div class="container trust-container">
+                    <div class="trust-item">
+                        <span class="trust-number">03+</span>
+                        <span class="trust-text">Years Industry Experience</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-number">20+</span>
+                        <span class="trust-text">Completed Projects</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-number">100%</span>
+                        <span class="trust-text">Commitment & Quality</span>
+                    </div>
+                    <div class="trust-item">
+                        <span class="trust-number">24/7</span>
+                        <span class="trust-text">Client Advisory Support</span>
+                    </div>
+                </div>
+            </div>
+
+            <section class="section-padding bg-dark">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <span class="sub-heading">What We Do</span>
+                        <h2 class="section-title">Comprehensive Real Estate & Construction Solutions</h2>
+                        <div class="title-divider"></div>
+                    </div>
+                    <div id="home-services-grid" class="grid-4"></div>
+                    <div class="text-center margin-top-lg">
+                        <a href="#services" class="btn btn-outline">View All 8 Core Services</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding bg-surface">
+                <div class="container">
+                    <div class="section-header flex-between">
+                        <div>
+                            <span class="sub-heading">Featured Portfolio</span>
+                            <h2 class="section-title">Prime Properties & Development Packages</h2>
+                        </div>
+                        <a href="#shop" class="btn btn-accent">Explore All Listings</a>
+                    </div>
+                    <div id="home-featured-products" class="grid-3"></div>
+                </div>
+            </section>
+
+            <section class="section-padding bg-dark">
+                <div class="container">
+                    <div class="grid-2 align-center">
+                        <div class="about-image-wrapper">
+                            <img src="images/logo.png" alt="Construction Site Management" class="img-responsive image-frame" loading="lazy">
+                        </div>
+                        <div>
+                            <span class="sub-heading">Why Choose Bonavee</span>
+                            <h2 class="section-title">Built on Precision, Driven by Integrity</h2>
+                            <p class="text-muted">At BONAVEE REAL ESTATE SERVICES, we combine creative architectural vision with rigorous construction techniques. Whether managing private high-rise developments or bespoke residential interiors, our turnkey execution ensures uncompromised quality.</p>
+                            <ul class="feature-list">
+                                <li><strong>Architectural Masteristry:</strong> Bespoke interior and exterior detailing.</li>
+                                <li><strong>Transparent Project Management:</strong> Strict budget & timeline delivery.</li>
+                                <li><strong>Global Client Standard:</strong> Serving clients in Nigeria, US, UK, and Canada.</li>
+                            </ul>
+                            <a href="#about" class="btn btn-outline margin-top-md">Learn More About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding bg-surface">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <span class="sub-heading">Client Reviews</span>
+                        <h2 class="section-title">What Our Clients Say</h2>
+                        <div class="title-divider"></div>
+                    </div>
+                    <div id="home-testimonials-container" class="grid-3"></div>
+                </div>
+            </section>
+        </section>
+
+        <section id="view-about" class="page-view">
+            <div class="page-banner">
+                <div class="container">
+                    <h1>About BONAVEE REAL ESTATE SERVICES</h1>
+                    <p>Pioneering Luxury Property Development and Construction in Nigeria</p>
+                </div>
+            </div>
+            <div class="section-padding container">
+                <div class="grid-2 align-center">
+                    <div>
+                        <span class="sub-heading">Our Story</span>
+                        <h2>Three Years of Construction & Real Estate Excellence</h2>
+                        <p class="text-muted">Founded by <strong>Nnamani Bonaventure chiemelie</strong> in Awka, Anambra State, BONAVEE REAL ESTATE SERVICES has grown from a specialized design-build office into a respected real estate, construction, and estate management entity.</p>
+                        <p class="text-muted">We bridge the gap between architectural concept and structural reality. Our work spans residential estates, commercial facilities, interior upgrades, and comprehensive property asset management across Nigeria and diaspora investor networks in the US, UK, and Canada.</p>
+                    </div>
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Luxury Villa Architecture" class="img-responsive image-frame" loading="lazy">
+                    </div>
+                </div>
+                
+                <div class="grid-3 margin-top-xl">
+                    <div class="card card-body">
+                        <h3>Our Mission</h3>
+                        <p class="text-muted">To engineer functional, sustainable, and aesthetically superior spaces while generating long-term equity for investors and property owners.</p>
+                    </div>
+                    <div class="card card-body">
+                        <h3>Our Vision</h3>
+                        <p class="text-muted">To become Eastern Nigeria's premier real estate development and architectural construction brand recognized globally for craftsmanship.</p>
+                    </div>
+                    <div class="card card-body">
+                        <h3>Core Values</h3>
+                        <p class="text-muted">Integrity, Precision Engineering, Client Confidentiality, Timely Delivery, and Innovation in Architectural Spatial Planning.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="view-services" class="page-view">
+            <div class="page-banner">
+                <div class="container">
+                    <h1>Our Core Services</h1>
+                    <p>Turnkey Solutions across Architectural Design, Engineering, & Property Management</p>
+                </div>
+            </div>
+            <div class="section-padding container">
+                <div id="services-full-grid" class="grid-4"></div>
+            </div>
+        </section>
+
+        <section id="view-shop" class="page-view">
+            <div class="page-banner">
+                <div class="container">
+                    <h1>Property & Services Catalog</h1>
+                    <p>Browse Available Estates, Building Packages, & Professional Service Plans</p>
+                </div>
+            </div>
+            <div class="section-padding container">
+                <div class="shop-controls-bar">
+                    <div class="search-box">
+                        <input type="text" id="shop-search-input" placeholder="Search properties, packages, services...">
+                    </div>
+                    <div class="filter-group">
+                        <select id="filter-category" aria-label="Filter by Category">
+                            <option value="all">All Categories</option>
+                            <option value="Property Development">Property Development</option>
+                            <option value="Construction">Construction</option>
+                            <option value="Property Management">Property Management</option>
+                            <option value="Architectural Services">Architectural Services</option>
+                            <option value="Interior Works">Interior Works</option>
+                            <option value="Exterior Works">Exterior Works</option>
+                        </select>
+                        <select id="sort-by" aria-label="Sort Products">
+                            <option value="featured">Featured First</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                            <option value="rating">Highest Rated</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="shop-products-grid" class="grid-3 margin-top-md"></div>
+                <div id="shop-empty-state" class="empty-state hidden">
+                    <h3>No Listing Found</h3>
+                    <p class="text-muted">Try adjusting your keyword search or category filter criteria.</p>
+                    <button id="reset-shop-filters" class="btn btn-outline margin-top-sm">Reset Filters</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="view-product-details" class="page-view">
+            <div class="section-padding container">
+                <a href="#shop" class="btn btn-outline btn-sm margin-bottom-md">← Back to Catalog</a>
+                <div id="product-detail-container" class="product-detail-layout">
+                    </div>
+            </div>
+        </section>
+
+        <section id="view-portfolio" class="page-view">
+            <div class="page-banner">
+                <div class="container">
+                    <h1>Project Portfolio</h1>
+                    <p>Showcasing Our Architecture, Structural Civil Works, and Completed Estates</p>
+                </div>
+            </div>
+            <div class="section-padding container">
+                <div class="portfolio-filter-buttons text-center margin-bottom-md">
+                    <button class="btn btn-sm btn-outline portfolio-btn active" data-category="all">All Projects</button>
+                    <button class="btn btn-sm btn-outline portfolio-btn" data-category="Construction">Construction</button>
+                    <button class="btn btn-sm btn-outline portfolio-btn" data-category="Architecture">Architecture</button>
+                    <button class="btn btn-sm btn-outline portfolio-btn" data-category="Interior">Interior</button>
+                    <button class="btn btn-sm btn-outline portfolio-btn" data-category="Exterior">Exterior</button>
+                </div>
+                <div id="portfolio-grid" class="grid-3"></div>
+            </div>
+        </section>
+
+        <section id="view-blog" class="page-view">
+            <div class="page-banner">
+                <div class="container">
+                    <h1>Industry Insights & Articles</h1>
+                    <p>Expert Guidance on Real Estate Investment, Architecture, and Building in Nigeria</p>
+                </div>
+            </div>
+            <div class="section-padding container">
+                <div id="blog-grid" class="grid-3"></div>
+            </div>
+        </section>
+
+        <section id="view-pricing" class="page-view">
+            <div class="page-banner">
+                <div class="container">
+                    <h1>Sample Service Packages</h1>
+                    <p>Structured Packages for Advisory, Architectural Blueprints, and Property Supervision</p>
+                </div>
+            </div>
+            <div class="section-padding container">
+                <div class="pricing-grid grid-3">
+                    <div class="card pricing-card">
+                        <div class="pricing-header">
+                            <h3>Starter Plan</h3>
+                            <span class="pricing-badge">Demo Package</span>
+                            <div class="price-tag"><span class="currency-symbol">₦</span><span class="price-val" data-ngn="250000">250,000</span></div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Preliminary Land Inspection</li>
+                            <li>Basic Architectural Draft</li>
+                            <li>Structural Feasibility Report</li>
+                            <li>Phone & Email Support</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline full-width">Request Custom Quote</a>
+                    </div>
+                    <div class="card pricing-card featured">
+                        <div class="pricing-header">
+                            <h3>Standard Plan</h3>
+                            <span class="pricing-badge accent">Most Popular</span>
+                            <div class="price-tag"><span class="currency-symbol">₦</span><span class="price-val" data-ngn="750000">750,000</span></div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Full 3D Architectural Blueprints</li>
+                            <li>Structural & MEP Drawings</li>
+                            <li>BOM & Construction Cost Estimate</li>
+                            <li>2 Site Supervision Visits</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-accent full-width">Request Custom Quote</a>
+                    </div>
+                    <div class="card pricing-card">
+                        <div class="pricing-header">
+                            <h3>Premium Plan</h3>
+                            <span class="pricing-badge">Turnkey</span>
+                            <div class="price-tag"><span class="currency-symbol">₦</span><span class="price-val" data-ngn="1800000">1,800,000</span></div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Full Luxury Villa Architectural Suite</li>
+                            <li>Interior & Exterior 3D Renderings</li>
+                            <li>Complete Permit Documentation</li>
+                            <li>Dedicated Site Engineer Supervision</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline full-width">Request Custom Quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="view-careers" class="page-view">
+            <div class="page-banner">
+                <div class="container">
+                    <h1>Join Our Team</h1>
+                    <p>Build Your Career with BONAVEE REAL ESTATE SERVICES</p>
+                </div>
+            </div>
+            <div class="section-padding container">
+                <div class="grid-2">
+                    <div>
+                        <h2>Current Openings</h2>
+                        <p class="text-muted">We are consistently seeking qualified engineers, architects, and estate professionals in Awka and across Eastern Nigeria. Explore sample open listings below:</p>
+                        <div class="careers-list margin-top-md">
+                            <div class="card card-body margin-bottom-sm">
+                                <h3>Site Engineer (Civil)</h3>
+                                <p class="text-muted">Awka, Anambra | Full-Time | Demo Position</p>
+                            </div>
+                            <div class="card card-body margin-bottom-sm">
+                                <h3>Senior Architectural Draftsperson</h3>
+                                <p class="text-muted">Awka / Hybrid | Contract | Demo Position</p>
+                            </div>
+                            <div class="card card-body margin-bottom-sm">
+                                <h3>Interior Design Specialist</h3>
+                                <p class="text-muted">Awka, Anambra | Full-Time | Demo Position</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-body">
+                        <h3>Submit Application</h3>
+                        <form id="careers-form">
+                            <div class="form-group">
+                                <label for="car-name">Full Name *</label>
+                                <input type="text" id="car-name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="car-email">Email Address *</label>
+                                <input type="email" id="car-email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="car-role">Position Applied For *</label>
+                                <input type="text" id="car-role" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="car-msg">Cover Note / Experience Summary</label>
+                                <textarea id="car-msg" class="form-control" rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-accent full-width">Submit Application Request</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="view-contact" class="page-view">
+            <div class="page-banner">
+                <div class="container">
+                    <h1>Contact Us</h1>
+                    <p>Speak with Our Engineering & Real Estate Advisory Team</p>
+                </div>
+            </div>
+            <div class="section-padding container">
+                <div class="grid-2">
+                    <div>
+                        <h2>Get In Touch</h2>
+                        <p class="text-muted">Have a construction inquiry, property development opportunity, or architectural design consultation requirement? Contact our team directly.</p>
+                        <div class="contact-details-list margin-top-md">
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <div>
+                                    <strong>Office Location</strong>
+                                    <p>Awka, Anambra State, Nigeria</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📞</span>
+                                <div>
+                                    <strong>Phone</strong>
+                                    <p><a href="tel:08168242474">08168242474</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">✉️</span>
+                                <div>
+                                    <strong>Email</strong>
+                                    <p><a href="mailto:bonaveerealestateservices@gmail.com">bonaveerealestateservices@gmail.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="margin-top-md">
+                            <a id="contact-wa-direct" href="#" target="_blank" rel="noopener" class="btn btn-whatsapp">Chat on WhatsApp Immediately</a>
+                        </div>
+                    </div>
+                    <div class="card card-body">
+                        <h3>Send Us a Message</h3>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="cnt-name">Full Name *</label>
+                                <input type="text" id="cnt-name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cnt-email">Email Address *</label>
+                                <input type="email" id="cnt-email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cnt-phone">Phone Number *</label>
+                                <input type="tel" id="cnt-phone" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cnt-service">Service Required</label>
+                                <select id="cnt-service" class="form-control">
+                                    <option value="Property Development">Property Development</option>
+                                    <option value="Construction">Construction</option>
+                                    <option value="Estate Management">Estate Management</option>
+                                    <option value="Architectural Services">Architectural Services</option>
+                                    <option value="Interior Works">Interior Works</option>
+                                    <option value="Exterior Works">Exterior Works</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="cnt-message">Message Details *</label>
+                                <textarea id="cnt-message" class="form-control" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-accent full-width">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="view-booking" class="page-view">
+            <div class="page-banner">
+                <div class="container">
+                    <h1>Book a Consultation</h1>
+                    <p>Schedule an In-Person or Virtual Session with Our Lead Architect & Engineers</p>
+                </div>
+            </div>
+            <div class="section-padding container">
+                <div class="card card-body max-width-md center-margin">
+                    <h2>Schedule Appointment Request</h2>
+                    <p class="text-muted margin-bottom-md">Select your preferred date, service type, and consultation channel.</p>
+                    <form id="booking-form">
+                        <div class="form-group">
+                            <label for="bk-name">Full Name *</label>
+                            <input type="text" id="bk-name" class="form-control" required>
+                        </div>
+                        <div class="grid-2">
+                            <div class="form-group">
+                                <label for="bk-email">Email Address *</label>
+                                <input type="email" id="bk-email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="bk-phone">Phone Number *</label>
+                                <input type="tel" id="bk-phone" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="bk-service">Consultation Service *</label>
+                            <select id="bk-service" class="form-control" required>
+                                <option value="Property Development Consultation">Property Development Consultation</option>
+                                <option value="Construction Site Assessment">Construction Site Assessment</option>
+                                <option value="Architectural Design Brief">Architectural Design Brief</option>
+                                <option value="Interior / Exterior Design Plan">Interior / Exterior Design Plan</option>
+                            </select>
+                        </div>
+                        <div class="grid-2">
+                            <div class="form-group">
+                                <label for="bk-date">Preferred Date *</label>
+                                <input type="date" id="bk-date" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="bk-time">Preferred Time *</label>
+                                <input type="time" id="bk-time" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="bk-notes">Project Scope / Meeting Notes</label>
+                            <textarea id="bk-notes" class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-accent full-width">Submit Consultation Booking Request</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="view-wishlist" class="page-view">
+            <div class="page-banner">
+                <div class="container">
+                    <h1>Your Saved Wishlist</h1>
+                    <p>Saved Properties, Architectural Packages, and Projects</p>
+                </div>
+            </div>
+            <div class="section-padding container">
+                <div id="wishlist-grid" class="grid-3"></div>
+                <div id="wishlist-empty" class="empty-state hidden">
+                    <h3>Your Wishlist is Empty</h3>
+                    <p class="text-muted">You have not saved any property or package listing yet.</p>
+                    <a href="#shop" class="btn btn-accent margin-top-sm">Browse Catalog</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="view-checkout" class="page-view">
+            <div class="page-banner">
+                <div class="container">
+                    <h1>Service Request & Checkout</h1>
+                    <p>Finalize Your Selection and Submit Your Order Inquiry</p>
+                </div>
+            </div>
+            <div class="section-padding container">
+                <div class="grid-2">
+                    <div class="card card-body">
+                        <h3>Client & Order Details</h3>
+                        <form id="checkout-form">
+                            <div class="form-group">
+                                <label for="chk-name">Full Name *</label>
+                                <input type="text" id="chk-name" class="form-control" required>
+                            </div>
+                            <div class="grid-2">
+                                <div class="form-group">
+                                    <label for="chk-email">Email *</label>
+                                    <input type="email" id="chk-email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="chk-phone">Phone *</label>
+                                    <input type="tel" id="chk-phone" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="grid-2">
+                                <div class="form-group">
+                                    <label for="chk-country">Country *</label>
+                                    <input type="text" id="chk-country" class="form-control" value="Nigeria" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="chk-state">State / Region *</label>
+                                    <input type="text" id="chk-state" class="form-control" placeholder="Anambra State" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="chk-address">Physical / Project Address *</label>
+                                <input type="text" id="chk-address" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="chk-notes">Special Directives / Project Notes</label>
+                                <textarea id="chk-notes" class="form-control" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-accent full-width">Submit Order Inquiry</button>
+                        </form>
+                    </div>
+
+                    <div class="card card-body">
+                        <h3>Order Summary</h3>
+                        <div id="checkout-items-list" class="checkout-items-summary margin-bottom-md"></div>
+                        <div class="summary-line">
+                            <span>Subtotal:</span>
+                            <strong id="chk-subtotal">₦0</strong>
+                        </div>
+                        <div class="summary-line">
+                            <span>Discount (Coupon):</span>
+                            <strong id="chk-discount">-₦0</strong>
+                        </div>
+                        <div class="summary-line total-line">
+                            <span>Total Payable Estimate:</span>
+                            <strong id="chk-total">₦0</strong>
+                        </div>
+                        <div class="coupon-apply-box margin-top-md">
+                            <input type="text" id="chk-coupon-input" placeholder="Promo Code (e.g. BONAVEE10)">
+                            <button id="chk-apply-coupon" class="btn btn-outline btn-sm">Apply</button>
+                        </div>
+                        <p class="text-muted text-sm margin-top-sm">Note: Submitting an inquiry does not process an automatic card payment. Our real estate advisory team will contact you to finalize contractual terms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="view-privacy" class="page-view">
+            <div class="page-banner">
+                <div class="container">
+                    <h1>Privacy Policy</h1>
+                </div>
+            </div>
+            <div class="section-padding container max-width-md">
+                <h2>Privacy Standards</h2>
+                <p class="text-muted">BONAVEE REAL ESTATE SERVICES respects your data privacy. Any personal information provided through inquiry forms, consultation bookings, or property inquiries is strictly utilized to process real estate transactions, project consultations, and architectural service briefs. We do not sell or transfer client information to third parties.</p>
+            </div>
+        </section>
+
+        <section id="view-terms" class="page-view">
+            <div class="page-banner">
+                <div class="container">
+                    <h1>Terms & Conditions</h1>
+                </div>
+            </div>
+            <div class="section-padding container max-width-md">
+                <h2>Operational Terms</h2>
+                <p class="text-muted">All architectural designs, structural models, quotation estimations, and development proposals published on this platform remain the intellectual property of BONAVEE REAL ESTATE SERVICES. Pricing listed on demo packages serves as baseline estimations and is subject to site assessments and engineering surveys.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="cart-drawer-overlay" class="drawer-overlay" aria-hidden="true"></div>
+    <aside id="cart-drawer" class="cart-drawer" aria-label="Shopping Cart Drawer">
+        <div class="drawer-header">
+            <h3>Your Selected Items</h3>
+            <button id="close-cart-drawer" class="close-btn" aria-label="Close Cart">&times;</button>
+        </div>
+        <div id="drawer-cart-items" class="drawer-body"></div>
+        <div class="drawer-footer">
+            <div class="summary-line">
+                <span>Subtotal:</span>
+                <span id="drawer-subtotal">₦0</span>
+            </div>
+            <div class="summary-line">
+                <span>Discount:</span>
+                <span id="drawer-discount">-₦0</span>
+            </div>
+            <div class="summary-line total-line">
+                <span>Total:</span>
+                <span id="drawer-total">₦0</span>
+            </div>
+            <div class="drawer-actions">
+                <a href="#checkout" id="drawer-checkout-btn" class="btn btn-accent full-width">Proceed to Checkout Request</a>
+                <button id="drawer-clear-btn" class="btn btn-outline full-width margin-top-xs">Clear Cart</button>
+            </div>
+        </div>
+    </aside>
+
+    <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <div class="logo-area margin-bottom-sm">
+                    <span class="logo-main">BONAVEE</span>
+                    <span class="logo-sub">REAL ESTATE SERVICES</span>
+                </div>
+                <p class="text-muted text-sm">Building Spaces. Creating Value. Shaping the Future. Premium architectural design, construction execution, and property management based in Awka, Nigeria.</p>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-title">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#shop">Shop & Properties</a></li>
+                    <li><a href="#portfolio">Projects Portfolio</a></li>
+                    <li><a href="#blog">Blog Insights</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-title">Services</h4>
+                <ul class="footer-links">
+                    <li><a href="#services">Property Development</a></li>
+                    <li><a href="#services">Construction Execution</a></li>
+                    <li><a href="#services">Estate Management</a></li>
+                    <li><a href="#services">Architectural Blueprints</a></li>
+                    <li><a href="#services">Interior Works</a></li>
+                    <li><a href="#services">Exterior Works</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-title">Contact Information</h4>
+                <p class="text-muted text-sm">📍 Awka, Anambra State, Nigeria</p>
+                <p class="text-muted text-sm">📞 <a href="tel:08168242474">08168242474</a></p>
+                <p class="text-muted text-sm">📞 <a href="tel:08061757401"> Or 08061757401</a></p>
+                <p class="text-muted text-sm">✉️ <a href="mailto:bonaveerealestateservices@gmail.com">bonaveerealestateservices@gmail.com</a></p>
+                
+                <div class="social-links margin-top-sm">
+                    <a href="https://share.google/DGAH49gm0pLgdZ99D" target="_blank" rel="noopener" aria-label="Google Business">🌐 Google</a>
+                    <a href="https://www.tiktok.com/@bonavee_constructions?_r=1&_t=ZS-99D0X7NjdKv" target="_blank" rel="noopener" aria-label="TikTok">🎵 TikTok</a>
+                    <a href="https://www.instagram.com/bonaveerealestateservices?igsi=MWE2bHU1NmpubnZ4cA==" target="_blank" rel="noopener" aria-label="Instagram">📸 Instagram</a>
+                    <!-- <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">📘 Facebook</a> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="sub-footer">
+            <div class="container flex-between flex-wrap gap-sm">
+                <p>&copy; 2026 BONAVEE REAL ESTATE SERVICES. All Rights Reserved.</p>
+                <div class="legal-links">
+                    <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms & Conditions</a>
+                </div>
+                <p class="earndee-credit">
+                    Powered by <a id="earndee-link" href="#" target="_blank" rel="noopener">EarnDee Limited</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
